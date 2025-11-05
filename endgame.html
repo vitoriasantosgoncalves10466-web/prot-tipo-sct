@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>End Game - Sistema Scout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="autonomo.html">Autônomo</a>
+      <a href="teleop.html">Teleoperado</a>
+      <a href="endgame.html" class="active">End Game</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>End Game</h2>
+
+    <div class="campo">
+      <label>Estacionou completamente no poço de escavação?</label>
+      <select>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Estacionou parcialmente no sítio arqueológico?</label>
+      <select>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>O robô parou?</label>
+      <select>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Penalidades:</label>
+      <input type="text" placeholder="Descreva penalidades se houver">
+    </div>
+
+    <div class="campo">
+      <label>Estratégia do robô:</label>
+      <select>
+        <option>Selecione</option>
+        <option>Robô de defesa</option>
+        <option>Robô de ataque</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Observações:</label>
+      <textarea maxlength="250" placeholder="Máximo de 250 caracteres"></textarea>
+    </div>
+
+    <div class="navegacao">
+      <button onclick="window.location.href='teleop.html'">⬅ Voltar</button>
+      <button onclick="alert('✅ Protótipo concluído com sucesso!')">Finalizar</button>
+    </div>
+  </div>
+
+</body>
+</html>

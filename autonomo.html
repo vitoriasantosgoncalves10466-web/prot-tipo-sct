@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Autônomo - Sistema Scout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="autonomo.html" class="active">Autônomo</a>
+      <a href="teleop.html">Teleoperado</a>
+      <a href="endgame.html">End Game</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Fase Autônoma</h2>
+
+    <div class="campo">
+      <label>O robô ultrapassou a linha de largada?</label>
+      <select>
+        <option>Selecione</option>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Artefatos (idade média) entregues no museu:</label>
+      <input type="number" min="0">
+    </div>
+
+    <div class="campo">
+      <label>Artefatos (pré-históricos) entregues no museu:</label>
+      <input type="number" min="0">
+    </div>
+
+    <div class="navegacao">
+      <button onclick="window.location.href='index.html'">⬅ Voltar</button>
+      <button onclick="window.location.href='teleop.html'">Próximo ➜</button>
+    </div>
+  </div>
+
+</body>
+</html>

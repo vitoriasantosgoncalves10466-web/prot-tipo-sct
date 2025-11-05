@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Teleoperado - Sistema Scout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="autonomo.html">Autônomo</a>
+      <a href="teleop.html" class="active">Teleoperado</a>
+      <a href="endgame.html">End Game</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Fase Teleoperada</h2>
+
+    <div class="campo">
+      <label>Artefatos (idade média) entregues no museu:</label>
+      <input type="number" min="0">
+    </div>
+
+    <div class="campo">
+      <label>Artefatos (pré-históricos) entregues no museu:</label>
+      <input type="number" min="0">
+    </div>
+
+    <div class="navegacao">
+      <button onclick="window.location.href='autonomo.html'">⬅ Voltar</button>
+      <button onclick="window.location.href='endgame.html'">Próximo ➜</button>
+    </div>
+  </div>
+
+</body>
+</html>
